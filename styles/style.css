@@ -2,7 +2,7 @@
   font-family: sans-serif;
 }
 body{
-     background-image: url(/images/gradient-bg.png);
+     background-image: url(images/gradient-bg.png);
      background-repeat: no-repeat;
      background-size: auto;
      margin: 0;
@@ -66,13 +66,13 @@ button:active{
   height: 120px;
 }
 .rock-btn{
-  background-image: url(/images/rock.png);
+  background-image: url(images/rock.png);
 }
 .paper-btn{
-  background-image: url(/images/paper.png);  
+  background-image: url(images/paper.png);  
 }
 .scissor-btn{
-  background-image: url(/images/scissor.png);
+  background-image: url(images/scissor.png);
 }
 .user-img{
   width: 90px;
