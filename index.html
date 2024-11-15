@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <center><h2>Rock Paper Scissor Game</h2><br>
+
+    <div class="btns">
+      <button class="rock-btn" onclick="game('rock')" title="rock"></button>
+      <button class="paper-btn" onclick="game('paper')" title="paper"></button>
+      <button class="scissor-btn" onclick="game('scissor')" title="scissor"></button>
+    </div><br><br>
+
+    <div class="result">
+      <center>
+        <p class="msg"></p>
+        <p class="msg1"></p>
+        <p class="msg2"></p>
+        <p class="msg3"></p>
+        <p class="msg4"></p>
+      </center>      
+    </div><br>
+    
+    <button class="rst" onclick="reset()">Reset    </button>
+
+  </center>
+
+  <script src="scripts/script.js"></script>
+  </body>
+</html>
